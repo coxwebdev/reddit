@@ -1,0 +1,202 @@
+body {
+   font-family: sans-serif;
+   font-size: 14px;
+}
+input {
+   border-radius: 5px;
+   display: block;
+   margin-bottom: 5px;
+   margin-top: 5px;
+   padding: 5px;
+   font-size: 16px;
+}
+select {
+   border-radius: 5px;
+   display: block;
+   font-size: 16px;
+   padding: 5px;
+   margin-bottom: 5px;
+   margin-top: 5px;
+}
+label {
+   line-height: 22px;
+   padding: 1px;
+   display: block;
+}
+fieldset {
+   border: #000000 solid thin;
+   border-radius: 5px;
+   padding: 20px;
+}
+.button {
+   background: #AED0E2;
+}
+th {
+
+}
+.checkboxDiv {
+   display: block;
+}
+.checkboxDiv input {
+   display: inline;
+}
+.checkboxDiv label {
+   display: inline;
+}
+.newForm {
+   margin: auto;
+   width: 50%;
+}
+.totalRows {
+   font-weight: bold;
+   margin: 10px;
+   width: 100%;
+   text-align: center;
+}
+.formCol {
+   float: left;
+   width: 200px;
+   margin: auto;
+}
+.login {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 200px;
+}
+.table {
+   width: 100%;
+}
+.nav {
+   margin: auto;
+   padding: 0;
+   width: 900px;
+   background: none repeat scroll 0 0 #FEFEFE;
+   border-radius: 10px;
+   padding: 15px;
+   text-align: center;
+}
+.icnEdit {
+   background: url("/assets/pencil.png") center no-repeat;
+   padding: 2px;
+   margin: 2px;
+}
+.icnDelete {
+   background: url("/assets/delete.png") center no-repeat;
+   padding: 2px;
+   margin: 2px;
+}
+.rowHead {
+   background: url("/assets/head_bg.gif") repeat-x scroll 0 0 #FFFFFF;
+   border-bottom: 1px solid;
+}
+.odd {
+   background: #DDDDDD;
+}
+.even {
+   background: #FFFFFF;
+}
+.errorMsg {
+   background: none repeat scroll 0 0 #EE9999;
+   border-radius: 10px;
+   bottom: 10px;
+   height: 30px;
+   margin: auto;
+   padding: 20px 20px 11px;
+   position: relative;
+   text-align: center;
+   top: 20px;
+   width: 60%;
+}
+#content {
+   margin: auto;
+   padding: 0;
+   max-width: 1400px;
+   background: none repeat scroll 0 0 #EDEDED;
+   border-radius: 15px;
+   padding: 15px;
+   min-height: 600px;
+}
+#footer {
+   text-align: center;
+   width: 1000px;
+   margin: auto;
+   padding-top: 15px;
+}
+.post_thumbnail {
+   float: left;
+   padding: 3px;
+}
+.post_title {
+   float: left;
+   font-size: 18px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.post_content {
+   font-style: italic;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.post_author {
+   font-variant: small-caps;
+}
+.upvote {
+   margin-left: 10px;
+   margin-right: 10px;
+   padding-left: 20px;
+   background: url("/assets/up_arrow.gif") no-repeat;
+   float: left;
+}
+.downvote {
+   margin-left: 10px;
+   margin-right: 10px;
+   padding-left: 20px;
+   background: url("/assets/down_arrow.gif") no-repeat;
+   float: left;
+}
+.post_created {
+
+}
+.scrape_sort {
+   float: left;
+   font-style: italic;
+   font-variant: small-caps;
+   font-size: 18px;
+   margin: 3px;
+}
+.scrape_subreddit {
+   float: left;
+   font-weight: bold;
+   font-style: italic;
+   margin: 3px;
+   font-variant: small-caps;
+   font-size: 18px;
+}
+.scrape_start {
+   float: left;
+}
+.scrape_end {
+   float: left;
+}
+.scrape_hours_run {
+
+}
+.scrape_last_run {
+
+}
+.excel_download {
+   background: url("/assets/excel.gif") left no-repeat;
+   padding: 18px;
+   margin: 18px;
+   float: right;
+   right: 5px;
+}
+.scrollDiv {
+   width: 100%;
+   height: 100%;
+   overflow: scroll;
+   border: ridge;
+}
